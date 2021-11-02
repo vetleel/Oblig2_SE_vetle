@@ -28,4 +28,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Unit Test
-      run: mvn -B package --file Oblig2_SE_vetle/pom.xml
+      run: mvn -B package --file pom.xml

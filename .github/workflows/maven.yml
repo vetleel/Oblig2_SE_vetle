@@ -25,7 +25,6 @@ jobs:
         java-version: '15'
         distribution: 'adopt'
         cache: maven
-    - name: Build with Maven
+    - name: Run Test
       run: mvn -B package --file pom.xml
-    - name: Unit Test
-      run: mvn -B package --file pom.xml
+ 

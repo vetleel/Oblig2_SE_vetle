@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Oblig2_SE_vetle" target="15" />
+      <module name="Oblig2_SE_vetle" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

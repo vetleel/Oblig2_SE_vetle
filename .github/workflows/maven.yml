@@ -29,4 +29,10 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Run tests with Maven
       run: mvn -B test --file pom.xml
+    - name: Build with Maven
+      #run: mvn -B package --file pom.xml
+      run: mvn --batch-mode --update-snapshots verify
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
  

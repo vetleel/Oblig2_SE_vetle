@@ -10,8 +10,7 @@ public class leep_Year {
     public void Check_If_This_Is_True() {
         assertTrue(year.isLeapYear(2000), "A leap year.");
         assertTrue(year.isLeapYear(2028), "A leap year.");
-        assertTrue(year.isLeapYear(2028), "Another leap year. This is another year and another year.");
-
+        assertTrue(year.isLeapYear(2029), "A leap year.");
     }
 
     @Test
